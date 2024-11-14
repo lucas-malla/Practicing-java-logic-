@@ -6,5 +6,9 @@ public class main {
         //Run First Exercise
         var sales = new FirstExercise();
         System.out.println(sales.sales());
+
+        //Ask for user number
+        var number = new AskForUserNumber();
+        System.out.println(number.addNumber());
     }
 }
